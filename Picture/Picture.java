@@ -162,14 +162,177 @@ public class Picture
         roof.moveHorizontal(130);
         roof.moveVertical(205);
         roof.makeVisible();
+        
+        roof = new Triangle(); //Treetop 4
+        roof.changeColor("green");
+        roof.changeSize(20,40);
+        roof.moveHorizontal(230);
+        roof.moveVertical(175);
+        roof.makeVisible();
+        
+        roof = new Triangle(); //Tree middle 4
+        roof.changeColor("green");
+        roof.changeSize(20,40);
+        roof.moveHorizontal(230);
+        roof.moveVertical(190);
+        roof.makeVisible();
+        
+        roof = new Triangle(); //Treebase 4
+        roof.changeColor("green");
+        roof.changeSize(20,40);
+        roof.moveHorizontal(230);
+        roof.moveVertical(205);
+        roof.makeVisible();
 
-        sun = new Circle();
+
+        sun = new Circle(); //Moon
         sun.changeColor("yellow");
         sun.moveHorizontal(170);
         sun.moveVertical(-20);
         sun.changeSize(60);
         sun.makeVisible();
         
+        sun = new Circle(); //Stars
+        sun.changeColor("yellow");
+        sun.moveHorizontal(150);
+        sun.moveVertical(-20);
+        sun.changeSize(5);
+        sun.makeVisible();
+        
+        sun = new Circle();
+        sun.changeColor("yellow");
+        sun.moveHorizontal(130);
+        sun.moveVertical(-10);
+        sun.changeSize(5);
+        sun.makeVisible();
+       
+        sun = new Circle();
+        sun.changeColor("yellow");
+        sun.moveHorizontal(20);
+        sun.moveVertical(10);
+        sun.changeSize(5);
+        sun.makeVisible();
+       
+        sun = new Circle();
+        sun.changeColor("yellow");
+        sun.moveHorizontal(100);
+        sun.moveVertical(-400);
+        sun.changeSize(5);
+        sun.makeVisible();
+       
+        sun = new Circle();
+        sun.changeColor("yellow");
+        sun.moveHorizontal(40);
+        sun.moveVertical(-20);
+        sun.changeSize(5);
+        sun.makeVisible();
+       
+        sun = new Circle();
+        sun.changeColor("yellow");
+        sun.moveHorizontal(90);
+        sun.moveVertical(-40);
+        sun.changeSize(5);
+        sun.makeVisible();
+       
+        sun = new Circle();
+        sun.changeColor("yellow");
+        sun.moveHorizontal(75);
+        sun.moveVertical(-10);
+        sun.changeSize(5);
+        sun.makeVisible();
+       
+        sun = new Circle();
+        sun.changeColor("yellow");
+        sun.moveHorizontal(105);
+        sun.moveVertical(-50);
+        sun.changeSize(5);
+        sun.makeVisible();
+       
+        sun = new Circle();
+        sun.changeColor("yellow");
+        sun.moveHorizontal(50);
+        sun.moveVertical(-35);
+        sun.changeSize(5);
+        sun.makeVisible();
+        
+        sun = new Circle();
+        sun.changeColor("yellow");
+        sun.moveHorizontal(200);
+        sun.moveVertical(-40);
+        sun.changeSize(5);
+        sun.makeVisible();
+        
+        sun = new Circle();
+        sun.changeColor("yellow");
+        sun.moveHorizontal(240);
+        sun.moveVertical(-35);
+        sun.changeSize(5);
+        sun.makeVisible();
+        
+        sun = new Circle();
+        sun.changeColor("yellow");
+        sun.moveHorizontal(260);
+        sun.moveVertical(25);
+        sun.changeSize(5);
+        sun.makeVisible();
+        
+        sun = new Circle();
+        sun.changeColor("yellow");
+        sun.moveHorizontal(150);
+        sun.moveVertical(30);
+        sun.changeSize(5);
+        sun.makeVisible();
+        
+        sun = new Circle();
+        sun.changeColor("yellow");
+        sun.moveHorizontal(120);
+        sun.moveVertical(20);
+        sun.changeSize(5);
+        sun.makeVisible();
+        
+        sun = new Circle();
+        sun.changeColor("yellow");
+        sun.moveHorizontal(15);
+        sun.moveVertical(25);
+        sun.changeSize(5);
+        sun.makeVisible();
+        
+        sun = new Circle();
+        sun.changeColor("yellow");
+        sun.moveHorizontal(10);
+        sun.moveVertical(-50);
+        sun.changeSize(5);
+        sun.makeVisible();
+        
+        
+        sun = new Circle();
+        sun.changeColor("yellow");
+        sun.moveHorizontal(5);
+        sun.moveVertical(-10);
+        sun.changeSize(5);
+        sun.makeVisible();
+        
+        sun = new Circle();
+        sun.changeColor("yellow");
+        sun.moveHorizontal(175);
+        sun.moveVertical(-40);
+        sun.changeSize(5);
+        sun.makeVisible();
+        
+        sun = new Circle();
+        sun.changeColor("yellow");
+        sun.moveHorizontal(190);
+        sun.moveVertical(-55);
+        sun.changeSize(5);
+        sun.makeVisible();
+        
+        sun = new Circle();
+        sun.changeColor("yellow");
+        sun.moveHorizontal(50);
+        sun.moveVertical(-10);
+        sun.changeSize(5);
+        sun.makeVisible();
+       
        
     }
 
